@@ -19,7 +19,7 @@ namespace GetDayInMonth
             int month = int.Parse(inputMonth);
             int numberOfDays = 0;
 
-            if (month > 0 && month <= 12 && year > 0)
+            if (month >= 1 && month <= 12 && year > 0)
             {
                 switch (month)
                 {
