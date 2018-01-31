@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GetDayInMonth
 {
@@ -34,7 +30,6 @@ namespace GetDayInMonth
                     case 6:
                     case 9:
                     case 11: numberOfDays = 30; break;
-                    case 100: break;
                     case 2:
                         if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))    // nam nhuan
                             numberOfDays = 29;
