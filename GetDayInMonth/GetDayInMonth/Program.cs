@@ -11,15 +11,15 @@ namespace GetDayInMonth
         static void Main(string[] args)
         {
             Console.WriteLine("Please input year: ");
-            var y = Console.ReadLine();
+            string inputYear = Console.ReadLine();
             Console.WriteLine("Please input month: ");
-            var m = Console.ReadLine();
+            string inputMonth = Console.ReadLine();
 
-            var isValidMonth = int.TryParse(m, out int month);
-            var isValidYear = int.TryParse(m, out int year);
+            int year = int.Parse(inputYear);
+            int month = int.Parse(inputMonth);
             int day = 0;
 
-            if (isValidMonth && isValidYear && month >= 1 && month <= 12)
+            if (month > 0 && month <= 12 && year > 0)
             {
                 switch (month)
                 {
