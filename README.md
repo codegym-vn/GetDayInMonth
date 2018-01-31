@@ -1,4 +1,5 @@
 # GetDayInMonth
+
 **Mục tiêu**
 
 Luyện tập sử dụng câu lệnh điều kiện switch-case.
@@ -32,3 +33,4 @@ Chi tiết:
 Không hợp lệ: Thông báo
 
 Lưu ý: Năm nhuận là năm chia hết cho 400 hoặc chia hết cho 4 và không chia hết cho 100
+

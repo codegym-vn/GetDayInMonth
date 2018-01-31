@@ -5,3 +5,10 @@ C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetD
 C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\bin\Debug\GetDayInMonth.pdb
 C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\obj\Debug\GetDayInMonth.exe
 C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\obj\Debug\GetDayInMonth.pdb
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\GetDayInMonth\bin\Debug\GetDayInMonth.exe.config
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\GetDayInMonth\bin\Debug\GetDayInMonth.exe
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\GetDayInMonth\bin\Debug\GetDayInMonth.pdb
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\GetDayInMonth\obj\Debug\GetDayInMonth.csprojResolveAssemblyReference.cache
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\GetDayInMonth\obj\Debug\GetDayInMonth.csproj.CoreCompileInputs.cache
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\GetDayInMonth\obj\Debug\GetDayInMonth.exe
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\GetDayInMonth\GetDayInMonth\GetDayInMonth\obj\Debug\GetDayInMonth.pdb

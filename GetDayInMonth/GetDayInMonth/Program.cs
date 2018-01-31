@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GetDayInMonth
 {
@@ -11,14 +7,15 @@ namespace GetDayInMonth
         static void Main(string[] args)
         {
             Console.WriteLine("Please input year: ");
-            var y = Console.ReadLine();
+            string inputYear = Console.ReadLine();
             Console.WriteLine("Please input month: ");
-            var m = Console.ReadLine();
+            string inputMonth = Console.ReadLine();
 
-            var isNumberMonth = int.TryParse(m, out int month);
-            var isNumberYear = int.TryParse(m, out int year);
-            int day = 0;
-            if (isNumberMonth && isNumberYear && month >= 1 && month <= 12)
+            int year = int.Parse(inputYear);
+            int month = int.Parse(inputMonth);
+            int numberOfDays = 0;
+
+            if (month >= 1 && month <= 12 && year > 0)
             {
                 switch (month)
                 {
@@ -28,22 +25,21 @@ namespace GetDayInMonth
                     case 7:
                     case 8:
                     case 10:
-                    case 12: day = 31; break;
+                    case 12: numberOfDays = 31; break;
                     case 4:
                     case 6:
                     case 9:
-                    case 11: day = 30; break;
-                    case 100: break;
+                    case 11: numberOfDays = 30; break;
                     case 2:
                         if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))    // nam nhuan
-                            day = 29;
+                            numberOfDays = 29;
                         else
-                            day = 28;
+                            numberOfDays = 28;
                         break;
                     default:
                         break;
                 }
-                Console.WriteLine("Month {0} has {1} days", month, day);
+                Console.WriteLine("Month {0} has {1} days", month, numberOfDays);
             }
             else
             {
